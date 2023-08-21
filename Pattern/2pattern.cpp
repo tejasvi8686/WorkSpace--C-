@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// square pattern
+
 int main()
 {
     int n;

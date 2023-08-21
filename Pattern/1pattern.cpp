@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//reactangle pattern
+
 int main() {
 
   for (int i = 1; i <= 8; i++) {  
