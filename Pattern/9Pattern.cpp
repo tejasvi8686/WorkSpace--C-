@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-// full pyramid
+// inverted pyramid
 int main (){
 
     int n;
@@ -8,11 +8,11 @@ int main (){
 
     for (int row=0; row<n; row=row+1){
         //for space 
-        for (int col=0; col<n-row-1; col=col+1){
+        for (int col=0; col<row; col=col+1){
             cout <<" ";
         }
         // for star
-        for (int col=0; col<row+1; col=col+1){
+        for (int col=0; col<n-row; col=col+1){
             cout <<"* ";
         }
         cout << endl;
