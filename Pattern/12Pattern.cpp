@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+// Flipped solid pattern
+int main()
+{
+
+    int n;
+    cin >> n;
+    // Left half pyramid
+    for (int row = 0; row < n; row = row + 1)
+    {
+        for (int col = 0; col < n - row; col = col + 1)
+        {
+            cout << "* ";
+        }
+
+        // space in the middle
+        for (int col = 0; col < 2 * row + 1; col = col + 1)
+        {
+            cout << "  ";
+        }
+        // Right half pyramd
+
+        for (int col = 0; col < n - row; col = col + 1)
+        {
+            cout << "* ";
+        }
+        cout << endl;
+    }
+
+    for (int row = 0; row < n; row = row + 1)
+    {
+        for (int col = 0; col < row + 1; col = col + 1)
+        {
+            cout << "* ";
+        }
+
+        // space in the middle
+        for (int col = 0; col < 2 * n - 2 * row - 1; col = col + 1)
+        {
+            cout << "  ";
+        }
+        // Right half pyramd
+
+        for (int col = 0; col < row + 1; col = col + 1)
+        {
+            cout << "* ";
+        }
+        cout << endl;
+    }
+}
