@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//area of circle
 float areaOfCircle(float radius) {
   float area = 3.14 * radius * radius;
   return area;

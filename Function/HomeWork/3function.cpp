@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// find the factorial
 int fact(int n)
 {
     int factorial = 1;

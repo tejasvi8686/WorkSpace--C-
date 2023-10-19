@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//given no is odd 0r even
 int isEven(int number)
 {
     return (number % 2 == 0);

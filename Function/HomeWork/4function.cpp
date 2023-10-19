@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//chexk given number prime or not
+
 bool checkPrime(int n) {
     if (n <= 1) {
         return false; // Numbers less than or equal to 1 are not prime
